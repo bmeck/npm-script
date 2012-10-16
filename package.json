@@ -1,0 +1,20 @@
+{
+  "name": "npm-script",
+  "version": "0.0.0",
+  "description": "NPM run-script spawning options generator",
+  "main": "lib/npm-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmeck/npm-script.git"
+  },
+  "keywords": [
+    "npm",
+    "script",
+    "runner"
+  ],
+  "author": "bradleymeck",
+  "license": "MIT"
+}
