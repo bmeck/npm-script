@@ -1,0 +1,4 @@
+{
+   "name": "npm-script",
+   "config": {"config-value": "in package.json"}
+}

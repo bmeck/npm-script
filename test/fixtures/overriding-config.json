@@ -1,0 +1,5 @@
+{
+   "npm-script": {
+      "config-value": "in config"
+   }
+}
