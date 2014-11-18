@@ -17,7 +17,8 @@ getNPMSpawnOptions(process.cwd(), lifecycle, {
   }[lifecycle],
   env: {
     PATH: process.env.PATH
-  }
+  },
+  fs?: fs_api // defaults to require('fs') used for remote system stuff
 }, function (err, spawnOptions) {
   var script = require('child_process').spawn.apply(null, spawnOptions);
   script.stderr.pipe(process.stderr);
